@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "scripts": {
+        "build:umd": "tsc",
+        "build:browser": "node script/buildForBrowser.js",
+        "prepare": "node script/prepare.js"
+    },
+    "devDependencies": {
+        "chalk": "^2.4.2",
+        "execa": "^3.2.0",
+        "fs-extra": "^8.1.0",
+        "jest": "^24.9.0",
+        "minimist": "^1.2.0",
+        "prettier": "1.18.2",
+        "rollup": "^1.26.3",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-replace": "^2.2.0",
+        "rollup-plugin-typescript2": "^0.24.3",
+        "ts-jest": "^24.1.0",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.6.4"
+    },
+    "name": "ts-demo"
+}
